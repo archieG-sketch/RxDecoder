@@ -1,0 +1,19 @@
+# Backend image must contain code and dependencies only.
+.env
+.env.*
+!.env.example
+*-key.json
+credentials*.json
+service-account*.json
+*.pem
+*.p12
+.git/
+.gitignore
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+data/
+tests/

@@ -1,0 +1,24 @@
+# Never send local secrets, credentials, PHI, or development artifacts to Docker.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/*-key.json
+**/credentials*.json
+**/service-account*.json
+*.pem
+*.p12
+.git/
+.gitignore
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+data/
+**/data/
+frontend/node_modules/
+frontend/dist/

@@ -1,0 +1,24 @@
+# Private backend build context. Keep secrets and local artifacts out.
+.git/
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/*-key.json
+**/credentials*.json
+**/service-account*.json
+*.pem
+*.p12
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+frontend/node_modules/
+frontend/dist/
+backend/tests/
+backend/test_agents.py
+backend/debug_*.py
