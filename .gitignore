@@ -17,8 +17,6 @@ venv/
 *.log
 data/
 **/data/
-dataset/
-**/dataset/
 frontend/node_modules/
 frontend/dist/
 **/tsconfig.tsbuildinfo
